@@ -13,12 +13,17 @@ by many spyders, so, to configure automatically this folder we can follow the ne
 -Remember to stay in the Spyder path
 
 $ scrapy genspider ietf pythonscraping.com
+"scrapy command - generate spider folder - name of the folder - the main domain"
 
-this is to connect with the domain of the framework and creates our first spider
+this is to connect with the domain of the framework and creates a tamplate of our first spider
 
+This course will use XPATH to create the selectors, so one sentence within the pasre function could be the next
 
+    'number': response.xpath('//span[@class="rfc-no"]/text()').get(), 
+    'title': response.xpath('//span[@name="DC.Title"]/@content').get(), 
 
-
+so, to get the text content of the tag we use "/text()"
+to get the value eithin the tag we use "@content"
 
 
 
