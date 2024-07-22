@@ -1,2 +1,24 @@
 This are going to be all the note of the project, including all the concepts required and 
 some specific concepts related to the project and the area
+
+Initialy, we have to install with Pip commands the library Scrapy, so, then to start 
+correctly our project we need to use the next command to create the enviroment of the project
+within our corrent path
+
+scrapy startproject ietf_scraper
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
