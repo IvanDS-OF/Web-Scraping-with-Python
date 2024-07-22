@@ -5,13 +5,16 @@ Initialy, we have to install with Pip commands the library Scrapy, so, then to s
 correctly our project we need to use the next command to create the enviroment of the project
 within our corrent path
 
-scrapy startproject ietf_scraper
+$ scrapy startproject ietf_scraper
+"scrapy command - sentence - name of the project"
 
+Then to do this, we need to focus on the Spyder's folder, actually, a web scraper is defined 
+by many spyders, so, to configure automatically this folder we can follow the next command in cmd
+-Remember to stay in the Spyder path
 
+$ scrapy genspider ietf pythonscraping.com
 
-
-
-
+this is to connect with the domain of the framework and creates our first spider
 
 
 
