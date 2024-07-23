@@ -26,6 +26,47 @@ so, to get the text content of the tag we use "/text()"
 to get the value eithin the tag we use "@content"
 
 
+*********Second Project - WIKIPEDIA
+first, i created the new project using "startproject", then in the folder Spider i created the correspond files
+using "genspider". 
+
+So, within the Spider/wikipedia.py, first we need to EXTEND SCRAPY'S CLASS 
+
+Before: 
+class WikipediaSpider(scrapy.Spider):
+
+After: 
+class WikipediaSpider(CrawlSpider):
+And mus import this library 
+from scrapy.spiders import CrawlSpider
+
+The difference between a scraper and a crawler is that the crawler need to spacify some rules 
+We need to give rules for the links to follow, we can do it by using a scrapy rule object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
