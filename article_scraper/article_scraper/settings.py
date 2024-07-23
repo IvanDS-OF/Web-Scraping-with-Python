@@ -9,6 +9,12 @@
 
 BOT_NAME = "article_scraper"
 
+CLOSESPIDER_PAGECOUNT=10
+
+#$ THE -o nameFile.csv and the -t type_of_the_file can be changed and add here in the next way
+FEED_URI = 'Article02.csv'
+FEED_FORMAT = 'csv'
+
 SPIDER_MODULES = ["article_scraper.spiders"]
 NEWSPIDER_MODULE = "article_scraper.spiders"
 

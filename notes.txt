@@ -54,6 +54,22 @@ If we want to use items, in the file we must write what are going to be those on
 
 And, it is also necesary to modify the Parse file
 
+then ,to run correctly the file we need to use this command in the cmd
+    scrapy runspider wikipedia.py -o articles.csv -t csv -s CLOSESPIDER_PAGECOUNT=10
+
+Setting
+in the past lesson we needed to use the final command "CLOSESPIDER_PAGECOUNT=10", this could be
+better if we set this information or this parameter inside some place, that place is going to be 
+the setting.py file which also we can find the BOT_NAME parameter
+
+
+
+
+
+
+
+
+
 
 
 
