@@ -44,12 +44,15 @@ The difference between a scraper and a crawler is that the crawler need to spaci
 We need to give rules for the links to follow, we can do it by using a scrapy rule object
 
 
+Items
+An item is a type of content, we have to modify our file items.py file by adding new objects
+If we want to use items, in the file we must write what are going to be those ones, like this
 
+    class ArticleScraperItem(scrapy.Item):
+        title = scrapy.Field()
+        url = scrapy.Field()
 
-
-
-
-
+And, it is also necesary to modify the Parse file
 
 
 
